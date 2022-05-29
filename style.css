@@ -1,0 +1,74 @@
+.container {
+
+    height: 960px;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    
+
+}
+.cell {
+    flex-grow: 1;
+   
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.palette {
+    display: flex;
+}
+
+.color {
+    height: 50px;
+    width: 50px;
+    flex-grow: 0;
+    margin: 20px 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+#black {
+    background-color: black;
+}
+
+#white {
+    background-color: white;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#purple {
+    background-color: purple;
+}
